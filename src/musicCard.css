@@ -1,0 +1,39 @@
+.song-name {
+  font-size: 1em;
+  color: rgb(61, 59, 59);
+}
+
+.play-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+  /* background-color: aquamarine; */
+}
+
+.play {
+  width: 290px;
+  height: 30px;
+}
+
+.heart-input { 
+  color: #490733;
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  display:inline-block;
+  height: 13px;
+  width: 16px;
+}
+
+/* .checkbox-input:checked  + .heart-input {
+  background-image: url('../design/hearticon/red\ heart.png');
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  display:inline-block;
+  height: 13px;
+  width: 13px;
+}
+ */

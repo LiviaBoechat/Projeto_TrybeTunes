@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /*gradiente*/
+
+  --cor01: #A8D1E7;
+  --cor02: #FCFAF2;
+  --cor03:#FFBFC5;
+  --cor04: #EB8DB5;
+  --cor05: #D4A3c4;
+
+  --fonte-serif: 'Lora', serif;
+  --font-sansserif: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.269);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.269);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  background-color: rgba(172, 94, 94, 0.179);
+}
+
+.login {
+  color:rgba(172, 94, 94, 0.179);
+  width: 340px;
+  height: 85px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  color: #7d7979;
+  border-radius: 20px;
+  border: 1px solid #d4a3c4bb;
+  outline-color: #A8D1E7;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+}
+
+.button {
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.269);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #dbc5d400;
+  background-color: #dad8d947;
+}
+
+.button:enabled {
+  color: #fbfbfb;
+}
+.button:hover {
+  color: #fbfbfb;
+}

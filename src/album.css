@@ -1,0 +1,53 @@
+.album-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 2800px;
+  height: 1140px;
+  /* background-color: rgb(44, 7, 13); */
+}
+
+.album-info-ball {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: rgba(146, 77, 77, 0.348);
+  filter: blur(700%);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.269);
+  color: #ffffff;
+  z-index: 2;
+  /* background-color: rgb(205, 27, 57); */
+}
+
+.album-image {
+  display: flex;
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+
+.album-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  /* background-color: blue; */
+}
+
+.songs-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px 30px 50px 110px;
+}
+
+/* estilização das músicas acontece em musicCard.css*/

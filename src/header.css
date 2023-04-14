@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /*gradiente*/
+  --cor01: #A8D1E7;
+  --cor02: #FCFAF2;
+  --cor03:#FFBFC5;
+  --cor04: #EB8DB5;
+  --cor05: #D4A3c4;
+
+  --fonte-serif: 'Lora', serif;
+  --font-sansserif: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.container-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  max-width: 2800px;
+  height: 140px;
+  /* background-color: red; */
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 1200px;
+  height: 60px;
+  background-color:  rgba(172, 94, 94, 0.141);
+  text-decoration: none;
+  color: #ffffffbc;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.269);
+}
+
+.a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1px;
+  /* background-color: aqua; */
+  color: #EB8DB5;
+
+}
+
+/*estiliza o estado UP*/
+a:link {
+  font-family: var(--bs-body-font-family);
+  text-decoration: none;
+  color: #813783bc;
+}
+
+/*estiliza o estado VISITED*/
+a:visited {
+  font-family: var(--bs-body-font-family);
+  text-decoration: none;
+  color: #5f5c5fbc;
+}
+
+/*estiliza o estado OVER*/
+a:hover {
+  font-family: var(--bs-body-font-family);
+  text-decoration: none;
+  color: #c02c2cbc;
+}
+
+/*estiliza o estado ATIVO*/
+a:active {
+  text-decoration: none;
+  color: #ffffffbc;
+}
+
+.greeting {
+  /* background-color: aqua; */
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 700px;
+  font-size: 1em;
+  font-family: var(--bs-body-font-family);
+  color: #ffffffbc;
+}

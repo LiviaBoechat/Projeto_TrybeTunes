@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /*gradiente*/
+  --cor01: #A8D1E7;
+  --cor02: #FCFAF2;
+  --cor03:#FFBFC5;
+  --cor04: #EB8DB5;
+  --cor05: #D4A3c4;
+
+  --fonte-serif: 'Lora', serif;
+  --font-sansserif: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient( 135deg, var(--cor01), var(--cor02), var(--cor03), var(--cor04), var(--cor05));
+  background-attachment: fixed;
+  margin: 0;
+  font-family: var(--fonte-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.loading {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

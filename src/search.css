@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+
+  /*gradiente*/
+  --cor01: #A8D1E7;
+  --cor02: #FCFAF2;
+  --cor03:#FFBFC5;
+  --cor04: #EB8DB5;
+  --cor05: #D4A3c4;
+
+  --fonte-serif: 'Lora', serif;
+  --font-sansserif: 'Montserrat', sans-serif;
+}
+
+/* ::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+} */
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 1450px;
+  /* background-color: brown; */
+}
+
+.search-ball-conainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1198px;
+  height: 450px;
+  background-image: url(../design/hot-frost-184928952-491141392217001-513059616253686906-n\ \(1\).jpg);
+  background-position: 10%;
+  background-size: cover;
+  /* background-color: rgb(128, 100, 0); */
+}
+
+.search-ball {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: rgba(168, 134, 134, 0.194);
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.269);
+  color: #ffffff;
+  z-index: 2;
+}
+
+.search-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7d7979;
+  border-radius: 20px;
+  border: 1px solid #d4a3c4bb;
+  outline-color: #A8D1E7;
+  box-shadow: 10px;
+  height: 35px;
+  width: 180px;
+  padding: 10px;
+  text-align: center;
+}
+
+.search-button {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #dbc5d400;
+  background-color: #dad8d947;
+  margin: 3%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.193);
+}
+
+.search-button:enabled {
+  color: #fbfbfb;
+}
+.search-button:hover {
+  color: #fbfbfb;
+}
+
+.search-albuns-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 1198px;
+  height: 1198px;
+  padding: 25px;
+  background-color:  rgba(172, 94, 94, 0.141);
+  text-decoration: none;
+  color: #ffffffbc;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.269);
+  /* background-color: green; */
+  /* z-index: 10; */
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 1198px;
+  height: 20px;
+  font-size: 1em;
+  /* background-color: purple; */
+}
+
+.music-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: space-between;
+  width: 160px;
+  height: 180px;
+  padding: 15px;
+  font-size: 0.2em;
+  /* background-color: rgb(226, 16, 16); */
+}
+
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    animation-timing-function: ease-in;
+  }
+  50% {
+    transform: scale(1.33);
+  }
+}
+
+.music-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  animation-play-state: paused;
+}
+
+.music-image:hover {
+  transform: scale(1.2);
+  animation: push 0.5s infinite;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.269);
+ 
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.music-album {
+  font-size: 3.5em;
+  height: 20px;
+}
+
+.music-artist {
+  font-size: 3.5em;
+  height: 12px;
+}
