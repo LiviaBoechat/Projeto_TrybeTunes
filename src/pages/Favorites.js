@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Header from '../Header';
 import { getFavoriteSongs, removeSong } from '../services/favoriteSongsAPI';
 import MusicCard from './MusicCard';
+import './favorites.css';
 
 // import { Redirect } from 'react-router-dom';
 
@@ -47,13 +48,13 @@ class Favorites extends Component {
     return (
       <div data-testid="page-favorites">
         <Header />
-        <h1>Músicas Favoritas</h1>
+        <h1 className="favorite-songs-list-container">Músicas Favoritas</h1>
         { !getfavorites
           ? <h4>Você não tem músicas salvas</h4>
           : (
-            <>
+            <div className="favorite-songs-list-container">
               {getfavorites.map((eachMusic, index) => (
-                <ul key={ index }>
+                <ul key={ index } >
                   <li>
                     <MusicCard
                       index={ index }
@@ -64,7 +65,7 @@ class Favorites extends Component {
                   </li>
                 </ul>
               ))}
-            </>
+            </div>
           )}
       </div>
     );

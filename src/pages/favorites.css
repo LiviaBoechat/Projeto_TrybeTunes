@@ -1,0 +1,9 @@
+
+  .favorite-songs-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 30px 50px 110px;
+    /* background-color: rgb(205, 27, 57); */
+  }
+  
