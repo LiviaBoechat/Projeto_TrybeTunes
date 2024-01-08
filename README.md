@@ -1,5 +1,23 @@
 # Projeto TrybeTunes
 
+Aplicação capaz de reproduzir músicas das mais variadas bandas e artistas e criar uma lista de músicas
+favoritas.
+O modelo SPA (Single Page Application) utilizado permitiu mais agilidade na navegação, uma vez que interação com o usuário ocorre em uma única página, sem a necessidade de recarregar a página inteira durante a navegação.
+
+## Recursos Principais
+- Cadastro do Usuário
+- Pesquisa por autores
+- Visualização das músicas a partir de álbuns
+- Opção de favoritar/desfavoritar músicas
+
+## Habilidades Desenvolvidas
+
+- React
+- React-Router
+- BroserRouter, Switch e Route para a construção de uma Single Page Application (SPA)
+- Utilização de API externa do iTunes
+- Css com Flexbox
+  
 ## Como Executar
 
 <details>
