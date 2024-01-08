@@ -11,7 +11,7 @@ O modelo SPA (Single Page Application) utilizado permitiu mais agilidade na nave
 - Opção de favoritar/desfavoritar músicas
 
 
-![TrybeTunes](https://github.com/LiviaBoechat/Projeto_TrybeTunes/assets/108305176/499cc564-be8e-4b67-88ec-d90e3e9253c6)
+<img src="assets/108305176/499cc564-be8e-4b67-88ec-d90e3e9253c6" alt="TrybeTunes" style="width:100%;">
 
 
 ## Habilidades Desenvolvidas
