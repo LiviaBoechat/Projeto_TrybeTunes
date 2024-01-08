@@ -13,7 +13,7 @@
 
 2. Instale as dependências
 
-- `mvn install`
+- `npm install`
 
 3. Execute o projeto
    
